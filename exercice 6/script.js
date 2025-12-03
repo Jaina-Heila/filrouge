@@ -1,0 +1,20 @@
+// - créer tableau (productNames)
+// - créer tableau (productPricesHT)
+// - afficher dans la console la longueur du tableau (le nombre d'éléments à l'intérieur)
+// - définir fonction (afficherProduitsConsole()):
+//   - `Pour chaque nom dans mon tableau productNames:`
+//     (indice : il faudra récupérer l'index de chaque nom en plus. Donc on doit récupérer 2 informations.)
+//       - récupérer prix HT via `prixHT[index]`
+//       - calculer le prix TTC (avec une fonction créée plus tôt dans nos exercices)
+//       - formatter prix (avec une fonction créée plus tôt dans nos exercices)
+//       - afficher dans la console la phrase : "Produit : Nom — Prix : XX,XX €"
+// - appeler la fonction
+
+
+let productNames =[ "dragibus", "tagada","marshmallow", "crocodile"];
+
+let productPricesHT=[4,3,5,2];
+
+console.log(productNames.length);
+console.log(productPricesHT.length);
+
