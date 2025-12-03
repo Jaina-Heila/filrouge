@@ -18,3 +18,5 @@ let productPricesHT=[4,3,5,2];
 console.log(productNames.length);
 console.log(productPricesHT.length);
 
+
+function afficherProduitsConsole()
